@@ -5,7 +5,7 @@ E=P-50
 M=E*4.00
 alert("Tua multa é de: " + M)
 }
-else if(P<=50){
+else{
     alert("Você está dentro do peso limite")
 }
 

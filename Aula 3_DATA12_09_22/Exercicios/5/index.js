@@ -1,13 +1,16 @@
 let I
-I=prompt("Qual é o índice de poluição atual?")
-if(I==0.3){
+I = prompt("Qual é o índice de poluição atual?")
+if(I < 0.3){
+    alert("O indice é aceitável")
+}
+else if(I < 0.4){
     alert("Industrias do grupo 1º, vocês estão intimadas a encerrarem suas atividades")
 }
-else if(I==0.4){
-    alert("Industrias do grupo 1º e 2º, vocês estão intimadas a encerrarem suas atividades")
+else if(I < 0.5){
+    alert("Industrias do grupo 1 e 2 devem encerrar suas atividades")
 }
-else if(I >=0.5){
-    alert("Industrias do grupo 1º, 2º e 3º, vocês estão intimadas a encerrarem suas atividades")
+else{
+    "Todos os grupos estão intimados a encerrarem suas atividades"
 }
 
 // I=índice

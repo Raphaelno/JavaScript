@@ -3,13 +3,13 @@ C=prompt("Digite o seu código")
 N=prompt("Quantas horas você trabalhou na semana?")
 if(N>50){
     E=N-50
-    SE= E*20
+    SE=E*20
     S=N*10
     T=S+SE
     alert("Seu salário excedente é de: " + SE + " e seu salário total é de: " + T)
 
 }
-else if(N<=50){
+else{
     S=N*10
     alert("Seu salário é de: " + S)
 }
